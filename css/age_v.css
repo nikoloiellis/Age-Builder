@@ -1,0 +1,80 @@
+:root {
+  --english-green-color: #1b4d3e;
+  --shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.5);
+  --radius: 3px;
+}
+html,
+body {
+  background-color: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.Form_main {
+  align-self: center;
+  background-color: #333;
+  border: 1px solid #f2f2f2;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  min-width: 350px;
+  max-width: 450px;
+  width: 40vw;
+  padding: 2rem;
+}
+
+#text-deco1 {
+  color: #fff;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
+#text-deco2 {
+  color: #fff;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
+#text_decoW {
+  color: #f7c08a;
+}
+
+#btn {
+  display: inline-block;
+  padding: 0.46em 1.6em;
+  border: 0.1em solid #000000;
+  margin: 0 0.2em 0.2em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  background-color: #ffffff;
+  text-align: center;
+  transition: all 0.15s;
+}
+
+#btn:hover {
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  color: #555;
+  border-color: #555;
+}
+
+#radius {
+  border-radius: 25px;
+}
